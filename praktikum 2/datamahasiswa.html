@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Biodata Mahasiswa</title></head>
+<body>
+    <header><h1>Biodata Mahasiswa</h1></header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="#Biodata">Biodata</a>
+        <a href="#from">From</a>
+    </nav>
+    <main>
+        <section id="biodata">
+            <h2>Data Mahasiswa</h2>
+            <table border="1">
+                <tr><th>Data</th><th>Keterangan</th></tr>
+                <tr><td>Nim</td><td>312510167</td></tr>
+                <tr><td>Nama</td><td>Lia Mulyati</td></tr>
+                <tr><td>Program Studi</td><td> Teknik Informatika </td></tr>
+            </table>
+        </section>
+
+        <section id="form">
+            <h2>From Biodata</h2>
+            <from>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" required>
+                <br><br>
+                <label for="email">Email</label>
+                <select name="prodi" id="prodi" required>
+                    <option value="">-- Pilih --</option>
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                </select>
+                <br><br>
+                <label for="alamat">Alamat</label><br>
+                <textarea name="alamat" id="alamat" required></textarea>
+                <br><br>
+                <button type="submit">Simpan</button>
+                <button type="reset">Reset</button>
+            </from>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Teknik Informatika</p></footer>
+</body>
+</html>
